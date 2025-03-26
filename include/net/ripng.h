@@ -7,7 +7,8 @@
 #include <netinet/in.h>
 
 #define RIPNG_ADDRESS_FAMILY                    0x01
-#define RIPNG_PORT_DEFAULT                      521
+#define RIPNG_TRANSPORT_PROTOCOL                17
+#define RIPNG_TRANSPORT_PORT                    521
 
 #define RIPNG_GROUP_ADDRESS                     "FF02::9"
 
